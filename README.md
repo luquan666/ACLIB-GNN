@@ -3,8 +3,8 @@ This is the official code for the implementation of "ACLIB-GNN：Incorporating A
 ## Table of contents
 * [Overview](#overview)
 * [Installation](#installation)
-* [Run ACLIB-GNN](#run-leci)
-* [Citing LECI](#citing-leci)
+* [Run ACLIB-GNN](#run-ACLIB-GNN)
+* [Citing LECI](#citing-ACLIB-GNN)
 * [License](#license)
 * [Contact](#contact)
 
@@ -29,3 +29,5 @@ pip install pandas==2.2.3
 pip install numpy==1.26.4
 pip install scikit-learn==1.6.1
 ```
+
+## Run ACLIB-GNN
