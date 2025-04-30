@@ -3,7 +3,8 @@ This is the official code for the implementation of "ACLIB-GNN：Incorporating A
 ## Table of contents
 * [Overview](#overview)
 * [Installation](#installation)
-* [Run ACLIB-GNN](#run-ACLIB-GNN)
+* [Experimental Setup](#experimental-setup)
+* [Run ACLIB-GNN](#run-aclib-gnn)
 * [Citing LECI](#citing-ACLIB-GNN)
 * [License](#license)
 * [Contact](#contact)
@@ -30,4 +31,20 @@ pip install numpy==1.26.4
 pip install scikit-learn==1.6.1
 ```
 
+## Experimental Setup
+
+| Parameters | Cora | Citeseer | Pubmed | CS |
+| :--: | :--: | :--: | :--: | :--: |
+| learning rate | 0.0001 | 0.001 | 0.001 | 0.001 |
+| batch size | 128 | 128 | 256 | 512 |
+| dropout ratio | 0.3 | 0.3 | 0.3 | 0.4 |
+| α | 0.1 | 0.3 | 0.3 | 0.2 |
+| β | 0.9 | 0.7 | 0.7 | 0.8 |
+| ε | 0.2 | 0.3 | 0.2 | 0.3 |
+
 ## Run ACLIB-GNN
+
+For Cora dataset
+```shell
+
+```
