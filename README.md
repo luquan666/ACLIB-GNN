@@ -44,7 +44,7 @@ pip install scikit-learn==1.6.1
 
 ## Run ACLIB-GNN
 
-For Cora dataset
-```shell
-
-```
+For Cora dataset run ```Cora.py```
+For Citeseer dataset run ```Citeseer.py```
+For Pubmed dataset run ```Pubmed.py```
+For CS dataset run ```CS.py```
