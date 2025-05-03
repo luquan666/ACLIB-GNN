@@ -8,11 +8,7 @@ This is the official code for the implementation of "ACLIB-GNN：Incorporating A
 
 ## Overview
 
-In this work, we propose to simultaneously incorporate label and environment causal independence (LECI) to 
-release the potential of pre-collected environment information in graph tasks, thereby addressing the challenges faced by prior methods on identifying 
-causal/invariant subgraphs. We further develop an adversarial training strategy to jointly optimize these two properties for 
-causal subgraph discovery with theoretical guarantees.
-
+In this work, We propose ACLIB-GNN, a framework unifying adversarial causal learning and the graph information bottleneck to address these gaps. By leveraging graph attention to filter redundant structural noise and adversarial training to maximize mutual information between explanatory subgraphs and labels, it explicitly disentangles causal features from shortcut signals, balancing transparency and performance.
 ## Installation
 ```shell
 conda create -n ACLIB-GNN python=3.9
@@ -30,14 +26,13 @@ pip install scikit-learn==1.6.1
 
 ## Experimental Setup
 
-| Parameters | Cora | Citeseer | Pubmed | CS |
-| :--: | :--: | :--: | :--: | :--: |
-| learning rate | 0.0001 | 0.001 | 0.001 | 0.001 |
-| batch size | 128 | 128 | 256 | 512 |
-| dropout ratio | 0.3 | 0.3 | 0.3 | 0.4 |
-| α | 0.1 | 0.3 | 0.3 | 0.2 |
-| β | 0.9 | 0.7 | 0.7 | 0.8 |
-| ε | 0.2 | 0.3 | 0.2 | 0.3 |
+Parameters | Cora | Citeseer | Pubmed | CS
+--- | --- | --- | --- | ---
+learning rate | 0.0001 | 0.001 | 0.001 | 0.001
+weight_decay | 5e-4 | 5e-4 | 5e-4 | 5e-3
+α | 0.1 | 0.3 | 0.3 | 0.2
+β | 0.9 | 0.7 | 0.7 | 0.8
+ε | 0.1 | 0.1 | 0.01 | 0.001
 
 ## Run ACLIB-GNN
 
