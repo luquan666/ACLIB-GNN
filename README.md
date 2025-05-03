@@ -9,6 +9,7 @@ This is the official code for the implementation of "ACLIB-GNN：Incorporating A
 ## Overview
 
 In this work, we propose ACLIB-GNN, a framework unifying adversarial causal learning and the graph information bottleneck to address these gaps. By leveraging graph attention to filter redundant structural noise and adversarial training to maximize mutual information between explanatory subgraphs and labels, it explicitly disentangles causal features from shortcut signals, balancing transparency and performance.
+(https://raw.githubusercontent.com/luquan666/ACLIB-GNN/main/images/flowchart.svg)
 
 ## Installation
 ```shell
