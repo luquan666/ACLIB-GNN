@@ -5,9 +5,6 @@ This is the official code for the implementation of "ACLIB-GNN：Incorporating A
 * [Installation](#installation)
 * [Experimental Setup](#experimental-setup)
 * [Run ACLIB-GNN](#run-aclib-gnn)
-* [Citing LECI](#citing-ACLIB-GNN)
-* [License](#license)
-* [Contact](#contact)
 
 ## Overview
 
