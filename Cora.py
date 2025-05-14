@@ -19,12 +19,12 @@ np.random.seed(42)
 
 hidden_dim = 64
 num_heads = 4
-lr = 0.001
+lr = 0.0001
 weight_decay = 5e-4
 epochs = 100
-alpha = 0.1
-beta = 0.9
-epsilon = 0.01
+alpha = 0.4
+beta = 0.6
+epsilon = 0.1
 k_hop = 1
 max_subgraph_nodes = 10
 results_dir = 'results_Cora_structured_fixed'
