@@ -18,12 +18,12 @@ torch.manual_seed(42)
 np.random.seed(42)
 hidden_dim = 64
 num_heads = 4
-lr = 0.0001
-weight_decay = 5e-3
+lr = 0.001
+weight_decay = 5e-4
 epochs = 100
-alpha = 0.3
-beta = 0.7
-epsilon = 0.01
+alpha = 0.4
+beta = 0.6
+epsilon = 0.1
 k_hop = 1
 max_subgraph_nodes = 10
 results_dir = 'results_Citeseer_structured_fixed'
